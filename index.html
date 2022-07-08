@@ -1,14 +1,74 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Qilun Chen</h1>
-    <p>something</p>
-    <p>something</p>
-    <p>something</p>
-</body>
+    <header>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="/facicon.ico">
+        <div class="container">
+            <div class="profile">
+                <div class="profile-image">
+                    <img src="https://media-exp1.licdn.com/dms/image/D5635AQEKfi5j7grhug/profile-framedphoto-shrink_200_200/0/1655859709363?e=1656957600&v=beta&t=OSmaTq0gvaH5ggcUDYII1fqsMkYbie6rjdxHlukD5aA" alt="" width="200">
+                </div>
+                <div class="profile-user-settings">
+                    <h1 class="profile-user-name">Qilun Chen</h1>
+                    <button class="btn profile-edit-btn">Resume</button>
+                    <button class="btn profile-settings-btn" aria-label="profile settings"><i class="fas fa-cog" aria-hidden="true"></i></button>
+                </div>
+                <div class="profile-stats">
+                    <ul>
+                        <li><span class="profile-stat-count">3</span> projects</li>
+                        <li><span class="profile-stat-count">188</span> followers</li>
+                        <li><span class="profile-stat-count">206</span> following</li>
+                    </ul>
+                </div>
+                <div class="profile-bio">
+                    <p>Data scientist and machine learning engineer with a background in mathematics, and hospitality. Experienced in
+                        front-end programming(Python, java, javascript), back-end programming(SQL), statistical analysis, machine learning
+                        (scikit-learn, Pandas, NumPy) and deep learning (Keras). Highly skilled in synthesizing complex information to
+                        engage decision-makers in productive dialogue that drives sound business outcomes. Responsible for every aspect of
+                        the business, including sales, marketing, accounting, and finances.</p>
+                </div>
+            </div>
+            <!-- End of profile section -->
+        </div>
+        <!-- End of container -->
+    </header>
+    
+    <main>
+        <div class="container">
+            <div class="gallery">
+                <div class="gallery-item" tabindex="0">
+                    <img src="imgaes/COFFEE_ICON.PNG" class="gallery-image" alt="">
+                    <div class="gallery-item-info">
+                        <ul>
+                            <li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fas fa-heart" aria-hidden="true"></i> 56</li>
+                            <li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fas fa-comment" aria-hidden="true"></i> 2</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="gallery-item" tabindex="0">
+                    <img src="imgaes/NBA SHOOTING.PNG" class="gallery-image" alt="">
+                    <div class="gallery-item-info">
+                        <ul>
+                            <li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fas fa-heart" aria-hidden="true"></i> 89</li>
+                            <li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fas fa-comment" aria-hidden="true"></i> 5</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="gallery-item" tabindex="0">
+                    <img src="imgaes/Pneumonia classification.PNG" class="gallery-image" alt="">
+                    <div class="gallery-item-type">
+                        <span class="visually-hidden">Gallery</span><i class="fas fa-clone" aria-hidden="true"></i>
+                    </div>
+                    <div class="gallery-item-info">
+                        <ul>
+                            <li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fas fa-heart" aria-hidden="true"></i> 42</li>
+                            <li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fas fa-comment" aria-hidden="true"></i> 1</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- End of gallery -->
+            <div class="loader"></div>
+        </div>
+        <!-- End of container -->
+    </main>
 </html>
